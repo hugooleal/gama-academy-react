@@ -10,5 +10,5 @@ Permite que o usuário insira o username do GitHub desejado no input da home pag
 
 Os nomes dos repositórios são buscados através da API do GitHub. O module utilizado para realizar a get request na API foi o Axios.
 
-#### Para visualizar o projeto online [clique aqui]()!
+#### Para visualizar o projeto online [clique aqui](https://gama-academy-react-psi.vercel.app/)!
 
