@@ -4,8 +4,8 @@ import { useHistory } from 'react-router-dom';
 
 export default function Repositories() {
     const [repositories, setRepositories] = useState([]);   
-    const history = useHistory();  
-    useEffect(() => {
+    const history = useHistory();
+    function getRepos() {
         let repositoriesName = localStorage.getItem('repositoriesName');
         if (repositoriesName !== null) {
             repositoriesName = JSON.parse(repositoriesName);
@@ -14,8 +14,8 @@ export default function Repositories() {
         } else {
             history.push('/');
         }
-    }, [])
-
+    }  
+    useEffect(getRepos, []);
     return (
         <S.Container>
             <S.Title>Repositórios</S.Title>
