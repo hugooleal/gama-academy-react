@@ -2,7 +2,7 @@
 
 ## Módulo - React
 
-Este simples app foi desenvolvido durante o módulo de React.
+Este simples app foi desenvolvido durante o módulo de React do programa Hiring Coders, promovido pela Gama Academy em parceira com a VTEX.
 
 ### Funcionalidade
 
