@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import * as S from './styled';
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 
 export default function Repositories() {
     const history = useHistory();
