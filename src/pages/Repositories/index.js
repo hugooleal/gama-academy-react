@@ -3,9 +3,9 @@ import * as S from './styled';
 import { useHistory } from 'react-router-dom';
 
 export default function Repositories() {
-    const history = useHistory();
     const [repositories, setRepositories] = useState([]);     
     useEffect(() => {
+        const history = useHistory();
         let repositoriesName = localStorage.getItem('repositoriesName');
         if (repositoriesName !== null) {
             repositoriesName = JSON.parse(repositoriesName);
